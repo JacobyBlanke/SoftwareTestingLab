@@ -90,7 +90,7 @@ public class Pair {
         try {
             System.out.println("What block? (0 for all)"); //get what block we pair people in
             blockSort = Integer.parseInt(in.readLine());
-            System.out.println("Sort? (T for tester, C for Coder, A for all"); 
+            System.out.println("Sort? (T for tester, C for Coder, A for all)"); 
             choice = in.readLine();
             if (choice.startsWith("T")) {
                 testerSort = true;
