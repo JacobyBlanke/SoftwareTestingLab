@@ -40,7 +40,7 @@ public class Pair {
             System.out.format("%-50s %-50s", (String.format("%-15s %-15s %-15s", "Last Name", "First Name", "Block")), (String.format("%-15s %-15s %-15s", "Last Name", "First Name","Block")));
         else
             System.out.format("%-50s %-50s", (String.format("%-15s %-15s %-15s", "First Name", "Last Name", "Block")), (String.format("%-15s %-15s %-15s", "First Name", "Last Name","Block")));
-        System.out.println("\n----------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------");
         for (int i = 0; i < count; i++) { //print each non-null array element
             if (array[i] != null)
                 System.out.print(array[i]);
