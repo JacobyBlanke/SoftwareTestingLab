@@ -10,3 +10,5 @@ Should point to a text file from 2-32 lines formatted with Block Number,Last Nam
 You will then be asked if you want to only match names with the same block (enter 0 for any block) and then you'll be asked if you want the names sorted by Tester, Coder, or Both
 
 compile with ant build
+
+--last-name can be passed as a command-line argument to sort by last name instead of first
